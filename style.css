@@ -188,6 +188,7 @@ button:hover {
 
 @media (min-width: 350px) AND (max-width: 780px) {
     .sec-1 {
+        padding-top: 10px;
         height: auto;
         width: 100%;
     }
@@ -352,6 +353,7 @@ button:hover {
         border-radius: 8px;
         color: #f4f8fe;
         background-color: #4f9cf9;
+        margin-bottom: 20px;
     }
     
     .tm-img img {
