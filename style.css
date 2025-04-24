@@ -226,13 +226,14 @@ button:hover {
     }
     
     .nav-btn2 {
-        margin-left: 20px;
+        /* margin-left: 20px; */
         font-size: 16px;
         padding: 20px 35px;
         border: none;
         border-radius: 10px;
         color: #f4f8fe;
         background-color: #4f9cf9;
+        margin: auto;
     }
     
 
@@ -252,7 +253,7 @@ button:hover {
         margin: auto;
         color: #f4f8fe;
         padding-left: 10px;
-        padding-top: 370px;
+        padding-top: 320px;
         text-align: center;
         font-family: "Poppins";
         font-weight: 300;
