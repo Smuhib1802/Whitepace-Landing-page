@@ -204,6 +204,7 @@ button:hover {
         font-size: 19px;
         color: #f4f8fe;
         text-decoration: none;
+        margin: auto;
         padding-left: 0;
     }
     .logo img {
