@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.sec-1 {
+    width: 100%;
+    height: 900px;
+    background-image: url(https://img.freepik.com/free-vector/minimal-geometric-stripe-shape-background_1409-1014.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.logo img {
+    width: 250px;
+    margin-left: 150px;
+    margin-right: 350px;
+}
+
+.nav-links a {
+    font-size: 19px;
+    margin-left: 35px;
+    color: #f4f8fe;
+    text-decoration: none;
+}
+
+.nav-btns {
+    margin-left: 80px;
+}
+
+.nav-btn1 {
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    color: #043873;
+    background-color: #ffe492;
+    font-size: 15px;
+}
+
+.nav-btn2 {
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    color: #f4f8fe;
+    background-color: #4f9cf9;
+}
+
+
+
+/* hero section */
+
+.hero {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-text {
+    width: 50%;
+    color: #f4f8fe;
+    padding-left: 150px;
+    padding-top: 220px;
+
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+.hero-text h3 {
+    line-height: 1.2;
+    font-size: 62px;
+    padding-bottom: 30px;
+}
+
+.hero-text button {
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 18px 25px;
+    border: none;
+    border-radius: 12px;
+    color: #f4f8fe;
+    background-color: #4f9cf9;
+}
+
+.hero-img {
+    width: 50%;
+    height: 700px;
+}
+
+.hero-img img {
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 650px;
+}
+
+
+.sec-2 {
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pm {
+    padding-top: 85px;
+    width: auto;
+    font-family: "Poppins";
+    padding-left: 150px;
+}
+
+.pm h3 {
+    line-height: 1.2;
+    font-size: 62px;
+    padding-bottom: 30px;
+}
+
+.pm button {
+    margin-top: 60px;
+    font-size: 16px;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px;
+    color: #f4f8fe;
+    background-color: #4f9cf9;
+}
+
+.pm-img img {
+    width: 1000px;
+    margin-left: 40px;
+}
+
+
+
+.sec-3 {
+    width: 100%;
+    height: auto;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tm {
+    padding-top: 120px;
+    width: auto;
+    font-family: "Poppins";
+    padding-left: 70px;
+}
+
+.tm h3 {
+    line-height: 1.2;
+    font-size: 62px;
+    padding-bottom: 30px;
+}
+
+.tm button {
+    margin-top: 60px;
+    font-size: 16px;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px;
+    color: #f4f8fe;
+    background-color: #4f9cf9;
+}
+
+.tm-img img {
+    width: 800px;
+    margin-left: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 350px) AND (max-width: 780px) {
+    .sec-1 {
+        height: auto;
+        width: 100%;
+    }
+
+    .nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px 0;
+
+    }
+    .nav-links a {
+        display: flex;
+        flex-direction: column;
+        font-size: 19px;
+        color: #f4f8fe;
+        text-decoration: none;
+    }
+    .logo img {
+        width: 250px;
+       margin: auto;
+    }
+    .nav-btns {
+        margin: auto;
+    }
+    
+    .nav-btn1 {
+        padding: 20px 35px;
+        border: none;
+        border-radius: 10px;
+        color: #043873;
+        background-color: #ffe492;
+        font-size: 15px;
+    }
+    
+    .nav-btn2 {
+        margin-left: 20px;
+        font-size: 16px;
+        padding: 20px 35px;
+        border: none;
+        border-radius: 10px;
+        color: #f4f8fe;
+        background-color: #4f9cf9;
+    }
+    
+
+    .hero {
+        flex-direction: column;
+        width: 100%;
+    }
+
+  
+
+  
+
+    /* hero section */
+
+    .hero-text {
+        width: auto;
+        margin: auto;
+        color: #f4f8fe;
+        padding-left: 10px;
+        padding-top: 300px;
+        text-align: center;
+        font-family: "Poppins";
+        font-weight: 300;
+    }
+
+    .hero-text h3 {
+        line-height: 1.2;
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+
+
+    .hero-img {
+        width: auto;
+        margin: auto;
+        /* height: 700px; */
+    }
+
+    .hero-img img {
+        padding-top: 100px;
+        /* margin-left: 100px; */
+        width: 100%;
+        margin: auto;
+    }
+
+    .sec-2 {
+        flex-direction: column-reverse;
+        width: 100%;
+        /* margin: auto; */
+        overflow: hidden;
+    }
+    
+    .pm {
+        padding-top: 85px;
+        width: 100%;
+        max-width: 100%;
+        /* box-sizing: border-box; */
+        font-family: "Poppins";
+        text-align: center;
+        /* margin: 0 auto; */
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .pm h3 {
+        line-height: 1.2;
+        font-size: 38px;
+        padding-bottom: 30px;
+    }
+    
+    .pm button {
+        margin-top: 40px;
+        font-size: 16px;
+        padding: 18px 40px;
+        border: none;
+        border-radius: 8px;
+        color: #f4f8fe;
+        background-color: #4f9cf9;
+    }
+    
+    .pm-img img {
+        max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    }
+
+    .sec-3 {
+        flex-direction: column;
+        width: auto;
+        overflow: hidden;
+    }
+    .tm {
+        padding-top: 85px;
+        width: 100%;
+        max-width: 100%;
+        /* box-sizing: border-box; */
+        font-family: "Poppins";
+        text-align: center;
+        /* margin: 0 auto; */
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .tm h3 {
+        line-height: 1.2;
+        font-size: 62px;
+        padding-bottom: 30px;
+    }
+    
+    .tm button {
+        margin-top: 40px;
+        font-size: 16px;
+        padding: 18px 40px;
+        border: none;
+        border-radius: 8px;
+        color: #f4f8fe;
+        background-color: #4f9cf9;
+    }
+    
+    .tm-img img {
+        max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    }
+}
