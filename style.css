@@ -204,6 +204,7 @@ button:hover {
         font-size: 19px;
         color: #f4f8fe;
         text-decoration: none;
+        padding-left: 0;
     }
     .logo img {
         width: 250px;
@@ -220,6 +221,7 @@ button:hover {
         color: #043873;
         background-color: #ffe492;
         font-size: 15px;
+        margin-bottom: 10px;
     }
     
     .nav-btn2 {
@@ -249,7 +251,7 @@ button:hover {
         margin: auto;
         color: #f4f8fe;
         padding-left: 10px;
-        padding-top: 300px;
+        padding-top: 370px;
         text-align: center;
         font-family: "Poppins";
         font-weight: 300;
